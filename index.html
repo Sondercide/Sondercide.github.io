@@ -1,3 +1,196 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Particle Jekyll Theme</title>
+  <meta name="description" content="Jacob Brown">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+  <body>
+      <div id="particles-js">
+  <div class="header">
+      <h1>
+        <span class="site-title">Jacob Brown</span>
+        <span class="site-description">Computer Science Student</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+
+      <section id="about">
+         <div class="user-details">
+  <h1> My Expertise </h1>
+  <p> Gaymer </p>
+</div>
+  <div class="fucker">
+    <div class="tech">
+      <h2>Software Dev</h2>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+      <i class="devicon-sass-original colored"></i>
+      <p>Hi</p>
+    </div>
+</div>
+
+      </section>
+      <section id="projects">
+        <div class="user-details">
+  <h1> Featured Projects </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="/assets/img/mountains.jpg" />
+  </div>
+  <div class="contents">
+    <h3> Project Title </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="/assets/img/skate.jpg" />
+  </div>
+  <div class="contents-right">
+    <h3> Project Title </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+
+      </section>
+        <h1 id="particle-jekyll-theme">Particle Jekyll Theme</h1>
+
+<p><img src="/particle.jpg" alt="" /></p>
+
+<p>This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.</p>
+
+<p>The Theme features:</p>
+
+<ul>
+  <li>Gulp</li>
+  <li>SASS</li>
+  <li>Sweet Scroll</li>
+  <li>Particle.js</li>
+  <li>BrowserSync</li>
+  <li>Font Awesome and Devicon icons</li>
+  <li>Google Analytics</li>
+  <li>Info Customization</li>
+</ul>
+
+<h2 id="basic-setup">Basic Setup</h2>
+
+<ol>
+  <li><a href="http://jekyllrb.com">Install Jekyll</a></li>
+  <li>Clone the particle theme: <code class="language-plaintext highlighter-rouge">git clone https://github.com/nrandecker/particle.git</code></li>
+  <li>Edit <code class="language-plaintext highlighter-rouge">_config.yml</code> to personalize your site.</li>
+</ol>
+
+<h2 id="site-and-user-settings">Site and User Settings</h2>
+
+<p>You have to fill some informations on <code class="language-plaintext highlighter-rouge">_config.yml</code> to customize your site.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname &amp; protocol for your site
+
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+user_title: Anon Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+</code></pre></div></div>
+
+<p><strong>Don’t forget to change your url before you deploy your site!</strong></p>
+
+<h2 id="color-and-particle-customization">Color and Particle Customization</h2>
+<ul>
+  <li>Color Customization
+    <ul>
+      <li>Edit the sass variables</li>
+    </ul>
+  </li>
+  <li>Particle Customization
+    <ul>
+      <li>Edit the json data in particle function in app.js</li>
+      <li>Refer to <a href="https://github.com/VincentGarreau/particles.js/">Particle.js</a> for help</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="running-the-blog-in-local">Running the blog in local</h2>
+
+<p>In order to compile the assets and run Jekyll on local you need to follow those steps:</p>
+
+<ul>
+  <li>Install <a href="https://nodejs.org/">NodeJS</a></li>
+  <li>Install <a href="https://jekyllrb.com">Jekyll</a>: <code class="language-plaintext highlighter-rouge">sudo gem install bundler jekyll</code></li>
+  <li>Install <a href="https://yarnpkg.com/">Yarn</a>: <code class="language-plaintext highlighter-rouge">npm install -g yarn</code></li>
+  <li>Install dependencies: <code class="language-plaintext highlighter-rouge">yarn</code></li>
+  <li>Run: <code class="language-plaintext highlighter-rouge">gulp</code></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<p>Having any issues file a <a href="https://github.com/nrandecker/particle/issues/new">GitHub Issue</a>.</p>
+
+<h2 id="license">License</h2>
+
+<p>This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.</p>
+
+<h2 id="credits">Credits</h2>
+
+<p>This theme was partially designed with the inspiration from these fine folks</p>
+<ul>
+  <li><a href="https://github.com/willianjusten/will-jekyll-template">Willian Justen</a></li>
+  <li><a href="https://github.com/VincentGarreau/particles.js/">Vincent Garreau</a></li>
+</ul>
+
+      <footer class="footer">
+    <p>&copy; Jacob Brown</p>
+    <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
+</footer>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="/assets/js/sweet-scroll.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<!-- Google Analytics -->
+
+<script>
+var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+if (dnt != "1" && dnt != "yes") {
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+}
+</script>
+
+
+
+  </body>
